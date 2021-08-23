@@ -27,4 +27,4 @@ artifacts:
   files:
     - "**/*"
   name: "web-dist-sandbox"
-  base-directory: open-data-registry-browser
+  base-directory: open-data-registry-browser/dist
