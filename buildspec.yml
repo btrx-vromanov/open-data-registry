@@ -22,3 +22,9 @@ phases:
       - BASE_URL=https://registry.opendata.aws npm run build
       - cd ../
       - bash _scripts/deploy.sh
+      
+ artifacts:
+    files:
+      - "**/*"
+    name: "web-dist-sandbox"
+    base-directory: open-data-registry-browser
