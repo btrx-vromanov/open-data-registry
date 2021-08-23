@@ -23,8 +23,8 @@ phases:
       - cd ../
       - bash _scripts/deploy.sh
       
- artifacts:
-    files:
-      - "**/*"
-    name: "web-dist-sandbox"
-    base-directory: open-data-registry-browser
+artifacts:
+  files:
+    - "**/*"
+  name: "web-dist-${env}"
+  base-directory: open-data-registry-browser
